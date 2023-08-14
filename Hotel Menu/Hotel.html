@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-heading">Hotel Paradise</h1>
+                <p class="paragraph">"Food is symbolic of love when words are inadequate"</p>
+                <p class="para">We provide fresh and delicious food.</p>
+                <button class="button" onclick="display('sectionHome1')">See Menu</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionHome1">
+        <div class="bg-container1">
+            <h1 class="main-head">Favourite Foods</h1>
+            <div class="food-card d-flex flex-row" onclick="display('sectionHome2')">
+                <div>
+                    <h1 class="food-head">Biryani</h1>
+                    <p class="food-para">A spiced mix of meat and rice, traditionally cooked over an open fire in a leather pot. It is combined in different ways with a variety of unique flavor combinations.</p>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/dum-handi-muttona-biryania-gosht-pilaf-is-prepared-earthen-clay-pot-called-haandi-1-kilo-size-popular-indian-non-vegetarian-fooda_466689-52328.jpg?w=1480" class="food-image" />
+            </div>
+
+            <div class="food-card d-flex flex-row">
+                <div>
+                    <h1 class="food-head">Veg Spring Rolls</h1>
+                    <p class="food-para">A cylindrical casing of rice paper, or sometimes wheat-and-egg dough, filled with a shredded mixture of vegetables like cabbage, spring onions and carrots .</p>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/indian-veg-chapati-wrap-kathi-roll-served-plate-with-sauce-moody-background-selective-focus_57665-8523.jpg?w=1480" class="food-image" />
+            </div>
+
+            <div class="food-card d-flex flex-row">
+                <div>
+                    <h1 class="food-head">Butter Naan</h1>
+                    <p class="food-para">Leavened, oven-baked flatbread, it can be used to scoop other foods and gravies or served stuffed with a filling..</p>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/thin-flatbread-traditional-asian-bread-dark-wooden-table_193819-3066.jpg?w=1480" class="food-image" />
+            </div>
+
+            <div class="food-card d-flex flex-row">
+                <div>
+                    <h1 class="food-head">Desserts</h1>
+                    <p class="food-para">A sweet confection served as the last course of a meal will be highly satisfying We have wide variety of dessets like sweets,chocolates,ice-creams and cakes.</p>
+                </div>
+                <img src="https://www.hyderabadgiftsdelivery.com/uploads/products/219711499958693.jpg" class="food-image" />
+            </div>
+            <button class="btn btn-danger" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+    <div id="sectionHome2">
+
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
