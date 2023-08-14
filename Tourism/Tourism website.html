@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="background-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-heading">Tourism</h1>
+                <p class="paragraph">Plan your trip wherever you want to go, start travelling and create a bag full of memories</p>
+                <button class="button" onclick="display('sectionFavouriteplaces')"> Get started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouriteplaces">
+        <div class="bg-container">
+            <h1 class="main-head">Favourite Places</h1>
+            <div class="tour-card d-flex flex-row">
+                <div onclick="display('sectionDetailedviewtajmahal')">
+                    <h1 class="tour-head">Taj Mahal</h1>
+                    <p class="tour-para">An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan in memory of his favourite wife.</p>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/taj-mahal-sunrise-light_78361-723.jpg?w=1480" class="tour-image" />
+            </div>
+            <div class="tour-card d-flex flex-row">
+                <div onclick="display('sectionDetailedviewqutabminar')">
+                    <h1 class="tour-head">Qutab Minar</h1>
+                    <p class="tour-para">73 m-high tower of victory, The tower has five distinct storeys, each marked by a projecting balcony and tapers from a 15 m diameter at the base.</p>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/qutub-minar-qutab-minar-road-delhi-image_181020-1289.jpg?w=1380" class="tour-image" />
+            </div>
+            <div class="tour-card d-flex flex-row">
+                <div onclick="display('sectionDetailedviewgolkondafort')">
+                    <h1 class="tour-head">Golkonda Fort</h1>
+                    <p class="tour-para">Golconda Fort Hyderabad is an outstanding example of brilliant engineering and magical architecture. </p>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/golkonda-is-citadel-fort-southern-india-is-situated-11-km-west-hyderabad_380726-807.jpg?w=1480" class="tour-image" />
+            </div>
+            <div class="tour-card d-flex flex-row">
+                <div onclick="display('sectionDetailedviewlotustemple')">
+                    <h1 class="tour-head">Lotus Temple</h1>
+                    <p class="tour-para">East of Nehru place, this temple is built in the shape of a lotus flower and is the last of seven Major Bahai's temples built around the world.</p>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/lotus-temple-india_78361-1098.jpg?w=1480" class="tour-image" />
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+    <div id="sectionDetailedviewtajmahal">
+        <div class="bg-container1">
+            <h1 class="main-head1">Detailed View</h1>
+            <div class="text-card">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="pad-container">
+                    <h1 class="text-head">Taj Mahal</h1>
+                    <p class="text-para">The Taj Mahal is considered to be the greatest architectural achievement in the whole range of Indo-Islamic architecture. Its recognised architectonic beauty has a rhythmic combination of solids and voids, concave and convex and light shadow; such as arches and domes further increases the aesthetic aspect. Not a piece of architecture, as other buildings are, but the proud passions of an emperor’s love wrought in living stones.</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">Back</button>
+        </div>
+    </div>
+    <div id="sectionDetailedviewqutabminar">
+        <div class="bg-container1">
+            <h1 class="main-head1">Detailed View</h1>
+            <div class="text-card">
+                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/premium-photo/qutub-minar-qutab-minar-road-delhi-image_181020-1289.jpg?w=1380" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/qutub-minar-qutab-minar-road-delhi-image-evening-view_181020-1292.jpg?w=1480" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/qutub-minar-qutab-minar-road-delhi-image_181020-1290.jpg?w=1480" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="pad-container">
+                    <h1 class="text-head">Qutab Minar</h1>
+                    <p class="text-para">Qutub Minar is counted among the famous historical places of India. Qutub minor is present in Delhi, India .this tower, made of stones and intents, is a very tall tower. Qutub Minar was built in the 12th century by Qutubdin Aibak but the complete work of this was done by Qutubdin Aibak is the successor of Iltumish. Qutub Minar is India second tallest tower.</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">Back</button>
+        </div>
+    </div>
+    <div id="sectionDetailedviewgolkondafort">
+        <div class="bg-container1">
+            <h1 class="main-head1">Detailed View</h1>
+            <div class="text-card">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/premium-photo/golkonda-is-citadel-fort-southern-india-is-situated-11-km-west-hyderabad_380726-815.jpg?w=1480" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/golkonda-is-citadel-fort-southern-india-is-situated-11-km-west-hyderabad_380726-807.jpg?w=1480" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/golkonda-is-citadel-fort-southern-india-is-situated-11-km-west-hyderabad_380726-822.jpg?w=1480" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="pad-container">
+                    <h1 class="text-head">Golkonda Fort</h1>
+                    <p class="text-para">Golconda fort was built in the 13th century by the Kakatiyas with mud. It is located 11 kms from Hyderabad on a hill. The name Golconda means a circular hill.It affords a beautiful view from the top. It was the capital of the Qutb Shahi Dynasty since th15th century. This is when the concrete masonry block work was done.</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">Back</button>
+        </div>
+    </div>
+    <div id="sectionDetailedviewlotustemple">
+        <div class="bg-container1">
+            <h1 class="main-head1">Detailed View</h1>
+            <div class="text-card">
+                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/premium-photo/lotus-temple-delhi_78361-1102.jpg?w=1480" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/lotus-temple-india_78361-1098.jpg?w=1480" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/lotus-temple-delhi_78361-1101.jpg?w=1480" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="pad-container">
+                    <h1 class="text-head">Lotus temple</h1>
+                    <p class="text-para">The Lotus Temple is one of the most fabulous structures you have ever seen. It has an exquisite design that looks like a lotus flower. It is situated in Delhi, India. It features an expressionists architectural design. The architect went for the lotus flower look because of how Indians hold dear the lotus flower because of its religious significance.</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

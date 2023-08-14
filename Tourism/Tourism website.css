@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-heading {
+    color: blue;
+    font-family: "Lobster";
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.paragraph {
+    color: purple;
+    font-family: "Tahoma";
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.button {
+    color: white;
+    height: 35px;
+    width: 130px;
+    font-size: 15px;
+    background-color: #21beed;
+    border-radius: 20px;
+}
+
+.tourism-card {
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #d9f7ff;
+    padding: 10px;
+}
+
+.background-container {
+    background-image: url("https://img.freepik.com/free-photo/maldives-island_74190-479.jpg?w=1480&t=st=1655905765~exp=1655906365~hmac=5e3c60e11e3aaf763adcfad4fa7483bf2f5cd0e8a28f3a4ce7c3882d8a653043");
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-container {
+    background-image: url("https://img.freepik.com/free-vector/india-architectural-skyline-poster_1284-14099.jpg?t=st=1657714294~exp=1657714894~hmac=2e5e217c039c92f3136959c75a8a0d4ea637ccb4587dc4c51cffebb50f9dc913&w=1800");
+    background-size: cover;
+    height: 130vh;
+}
+
+.main-head {
+    color: #1637db;
+    font-family: American Typewriter;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 35px;
+    text-align: center;
+}
+
+.tour-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.tour-head {
+    color: #0dbf43;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tour-para {
+    color: #1c5c2f;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tour-image {
+    width: 90px;
+    height: 130px;
+    border-radius: 7px;
+}
+
+.bg-container1 {
+    background-image: url("https://img.freepik.com/free-vector/india-architectural-skyline-poster_1284-14099.jpg?t=st=1657714294~exp=1657714894~hmac=2e5e217c039c92f3136959c75a8a0d4ea637ccb4587dc4c51cffebb50f9dc913&w=1800");
+    height: 110vh;
+}
+
+.main-head1 {
+    color: #ad0241;
+    text-align: center;
+    font-family: Bree;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.text-card {
+    background-color: #d1fdff;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    margin: 25px;
+}
+
+.text-head {
+    color: #132275;
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.text-para {
+    color: #363f40;
+    font-family: Roman;
+    font-size: 17px;
+}
+
+.pad-container {
+    padding: 10px;
+}
